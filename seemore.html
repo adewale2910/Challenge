@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Page two of the project</title>
+
+
+
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="rough.css">
+    <link rel="stylesheet" href="seemore.css">
+</head>
+
+<body>
+
+
+    <section class="px-auto m-auto d-lg-flex d-sm-block px-lg-5 px-sm-auto">
+        <div id="div1" class="">
+            <div style="width: 95%; height:50vh;"><img src="./Rectangle 6.png" alt="" width="100%" height="100%"></div>
+            <div class="d-flex mx-2 my-3" style="width: 95%; height: 25vh;">
+                <div class="ms-1" style="width: 30%; height:23vh;"><img src="./Rectangle 7.png" alt="" width="100%"
+                        height="100%"></div>
+                <div class="mx-2" style="width: 30%; height:23vh;"><img src="./Rectangle 8.png" alt="" width="100%"
+                        height="100%"></div>
+                <div class="mx-2" style="width: 30%; height:100%;"><img src="./Rectangle 9.png" alt="" width="100%"
+                        height="100%"></div>
+            </div>
+        </div>
+        <div id="div2" class="ms-3  px-3 py-2 my-auto  px-sm-auto ">
+            <p>Lorem ipsum es</p>
+            <h4 class="lo">Lorem Ipsum es sim</h4>
+            <p class="word">Lorem iosum es simplemente et texto <br> de reilene de las imprents y archiv <br> de
+                texto.Lorem ipsum ha side el</p>
+            <!-- color checker -->
+            <label for="exampleColorInput" class="form-label">Color picker</label>
+            <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c"
+                title="Choose your color">
+            <!--  -->
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                <label class="form-check-label" for="inlineRadio1"></label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                <label class="form-check-label" for="inlineRadio2"></label>
+            </div> <br>
+
+            <!-- the height and the width button -->
+
+            <div class="d-flex">
+                <div class="border border-1 border-dark text-center px-3 pt-2">
+                    <p>Height <br><span id="hcon">53cm</span></p>
+                </div>
+                <div class="border border-1 border-dark text-center px-3 pt-2">
+                    <p>Weight <br><span id="wcon">43cm</span></p>
+                </div>
+                <button id="con" class="px-3" onclick="convert()">Size in inches</button>
+            </div>
+            <div class="mt-2 fw-bold" style="font-size: xxx-large;">$69.00</div> <br>
+            <!-- what to add to item to buy  -->
+            <div>
+                <button style="background-color: black; color:white; width:20px; border-radius: 5px;">-</button>
+                1
+                <button on style="background-color: black; color:white; width:20px; border-radius: 5px;"> +</button>
+            </div><br>
+            <!-- add and cart section -->
+            <div>
+                <button class="fw-bold"
+                    style="background-color: WHITE;  width:150px; height: 40px; border-radius: 10px;">ADD TO
+                    CART</button>
+                <button class="fw-bold"
+                    style="background-color:black; color: white;  width:150px; height: 40px; border-radius: 10px;"> <a
+                        href="Shem project/account.html" class="text-decoration-none text-light"> BUY
+                        NOW </a></button>
+                <br>
+                <!-- the previous and the next button -->
+                <div class="p-3 mx-5 ">
+                    <button style="border-radius: 7px; width: 80px;"> <a href="index.html"
+                            class="text-decoration-none  fw-bold  text-dark"> Previous
+                        </a></button>
+                    <button style="border-radius: 7px; width: 80px;"><a href="project.html"
+                            class="text-decoration-none text-dark fw-bold ">
+                            Next...</a> </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+<script>
+    function convert(value) {
+        if (con.innerText == 'Size in inches') {
+            hcon.innerText = '20.4INCHES'
+            wcon.innerText = '16.9INCHES'
+            con.innerText = "Size in cm"
+        } else {
+            hcon.innerText = '54CM'
+            wcon.innerText = '43CM'
+            con.innerText = "Size in inches"
+        }
+    }
+</script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+
+</html>

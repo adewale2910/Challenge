@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+#con{
+   background-color: transparent;
+   margin-left: 10px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
